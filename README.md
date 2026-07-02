@@ -9,6 +9,8 @@
 
 ## Run - localhost + remote server
 
+<img width="1181" height="522" alt="image" src="https://github.com/user-attachments/assets/b2186b7b-afbb-4391-997f-cd0213fc61f7" />
+
 <img width="415" height="234" alt="image" src="https://github.com/user-attachments/assets/34040848-2da9-4404-905c-1c6794055a69" />
 
 
