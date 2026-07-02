@@ -1,0 +1,65 @@
+Jul  2 19:03:16 Manage-Node2 sshd[937]: Server listening on 0.0.0.0 port 22.
+Jul  2 19:03:16 Manage-Node2 sshd[937]: Server listening on :: port 22.
+Jul  2 19:03:17 Manage-Node2 polkitd[1001]: Loading rules from directory /etc/polkit-1/rules.d
+Jul  2 19:03:17 Manage-Node2 polkitd[1001]: Loading rules from directory /usr/share/polkit-1/rules.d
+Jul  2 19:03:17 Manage-Node2 polkitd[1001]: Finished loading, compiling and executing 3 rules
+Jul  2 19:03:17 Manage-Node2 polkitd[1001]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Jul  2 19:03:28 Manage-Node2 sshd[1461]: Accepted password for root from 192.168.56.1 port 61533 ssh2
+Jul  2 19:03:28 Manage-Node2 systemd[1468]: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Jul  2 19:03:29 Manage-Node2 sshd[1461]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Jul  2 19:03:29 Manage-Node2 sshd[1465]: Accepted password for root from 192.168.56.1 port 61534 ssh2
+Jul  2 19:03:29 Manage-Node2 sshd[1465]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Jul  2 19:29:35 Manage-Node2 sshd[1544]: Accepted publickey for ansible from 192.168.56.21 port 50352 ssh2: RSA SHA256:kThtlvm+tdmK/NK2Zm2x0E8z3owmfDpb2MQi91Yltu4
+Jul  2 19:29:35 Manage-Node2 systemd[1548]: pam_unix(systemd-user:session): session opened for user ansible(uid=1001) by (uid=0)
+Jul  2 19:29:36 Manage-Node2 sshd[1544]: pam_unix(sshd:session): session opened for user ansible(uid=1001) by (uid=0)
+Jul  2 19:29:37 Manage-Node2 sudo[1684]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yeqslapexujybfnhoizgqgrxhijgnbqz ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1783000776.204686-1709-208300503337484/AnsiballZ_setup.py
+Jul  2 19:29:37 Manage-Node2 sudo[1684]: pam_unix(sudo:session): session opened for user root(uid=0) by ansible(uid=1001)
+Jul  2 19:29:38 Manage-Node2 sudo[1684]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:29:39 Manage-Node2 sudo[1830]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cesmhjfyyrtauaxrygbnlysqjktduqoz ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1783000778.5845041-1725-105233435064031/AnsiballZ_slurp.py
+Jul  2 19:29:39 Manage-Node2 sudo[1830]: pam_unix(sudo:session): session opened for user root(uid=0) by ansible(uid=1001)
+Jul  2 19:29:39 Manage-Node2 sudo[1830]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:29:54 Manage-Node2 sudo[1976]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gzlfdxpjbayllxfrdzitjfmwcuhwfgpx ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1783000793.192956-1739-137359516876668/AnsiballZ_setup.py
+Jul  2 19:29:54 Manage-Node2 sudo[1976]: pam_unix(sudo:session): session opened for user root(uid=0) by ansible(uid=1001)
+Jul  2 19:29:55 Manage-Node2 sudo[1976]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:29:55 Manage-Node2 sudo[2122]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cvzwyjcvfbqiizoxcckkcxgnsgmanrqt ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1783000795.2030523-1750-38029126734493/AnsiballZ_slurp.py
+Jul  2 19:29:55 Manage-Node2 sudo[2122]: pam_unix(sudo:session): session opened for user root(uid=0) by ansible(uid=1001)
+Jul  2 19:29:55 Manage-Node2 sudo[2122]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:30:56 Manage-Node2 sshd[1558]: Received disconnect from 192.168.56.21 port 50352:11: disconnected by user
+Jul  2 19:30:56 Manage-Node2 sshd[1558]: Disconnected from user ansible 192.168.56.21 port 50352
+Jul  2 19:30:56 Manage-Node2 sshd[1544]: pam_unix(sshd:session): session closed for user ansible
+Jul  2 19:32:55 Manage-Node2 sshd[2148]: Accepted publickey for ansible from 192.168.56.21 port 52566 ssh2: RSA SHA256:kThtlvm+tdmK/NK2Zm2x0E8z3owmfDpb2MQi91Yltu4
+Jul  2 19:32:55 Manage-Node2 systemd[2152]: pam_unix(systemd-user:session): session opened for user ansible(uid=1001) by (uid=0)
+Jul  2 19:32:55 Manage-Node2 sshd[2148]: pam_unix(sshd:session): session opened for user ansible(uid=1001) by (uid=0)
+Jul  2 19:32:56 Manage-Node2 sudo[2287]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nlmmpslxfeopphhpvnrwrkfoibfghkvq ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1783000975.6652544-1771-40202700504129/AnsiballZ_setup.py
+Jul  2 19:32:56 Manage-Node2 sudo[2287]: pam_unix(sudo:session): session opened for user root(uid=0) by ansible(uid=1001)
+Jul  2 19:32:57 Manage-Node2 sudo[2287]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:32:58 Manage-Node2 sudo[2433]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tzpuelxfskykiqrgqzljddshbotnnldy ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1783000977.7635174-1785-166912890268619/AnsiballZ_slurp.py
+Jul  2 19:32:58 Manage-Node2 sudo[2433]: pam_unix(sudo:session): session opened for user root(uid=0) by ansible(uid=1001)
+Jul  2 19:32:58 Manage-Node2 sudo[2433]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:32:59 Manage-Node2 sudo[2543]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vxfoayxlyeutsuimcssjgsuvahmlvueb ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1783000978.655714-1794-81733998255282/AnsiballZ_file.py
+Jul  2 19:32:59 Manage-Node2 sudo[2543]: pam_unix(sudo:session): session opened for user root(uid=0) by ansible(uid=1001)
+Jul  2 19:32:59 Manage-Node2 sudo[2543]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:33:00 Manage-Node2 sudo[2653]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lpjpqlqnvikfzxvrcgiokolzehwztvib ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1783000979.556567-1803-56034305772213/AnsiballZ_lineinfile.py
+Jul  2 19:33:00 Manage-Node2 sudo[2653]: pam_unix(sudo:session): session opened for user root(uid=0) by ansible(uid=1001)
+Jul  2 19:33:00 Manage-Node2 sudo[2653]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:34:00 Manage-Node2 sshd[2161]: Received disconnect from 192.168.56.21 port 52566:11: disconnected by user
+Jul  2 19:34:00 Manage-Node2 sshd[2161]: Disconnected from user ansible 192.168.56.21 port 52566
+Jul  2 19:34:00 Manage-Node2 sshd[2148]: pam_unix(sshd:session): session closed for user ansible
+Jul  2 19:38:48 Manage-Node2 sshd[2683]: Accepted publickey for ansible from 192.168.56.21 port 49358 ssh2: RSA SHA256:kThtlvm+tdmK/NK2Zm2x0E8z3owmfDpb2MQi91Yltu4
+Jul  2 19:38:48 Manage-Node2 systemd[2687]: pam_unix(systemd-user:session): session opened for user ansible(uid=1001) by (uid=0)
+Jul  2 19:38:48 Manage-Node2 sshd[2683]: pam_unix(sshd:session): session opened for user ansible(uid=1001) by (uid=0)
+Jul  2 19:38:48 Manage-Node2 sshd[2697]: Received disconnect from 192.168.56.21 port 49358:11: disconnected by user
+Jul  2 19:38:48 Manage-Node2 sshd[2697]: Disconnected from user ansible 192.168.56.21 port 49358
+Jul  2 19:38:48 Manage-Node2 sshd[2683]: pam_unix(sshd:session): session closed for user ansible
+Jul  2 19:39:39 Manage-Node2 sshd[2715]: Accepted publickey for ansible from 192.168.56.21 port 41654 ssh2: RSA SHA256:kThtlvm+tdmK/NK2Zm2x0E8z3owmfDpb2MQi91Yltu4
+Jul  2 19:39:39 Manage-Node2 systemd[2719]: pam_unix(systemd-user:session): session opened for user ansible(uid=1001) by (uid=0)
+Jul  2 19:39:39 Manage-Node2 sshd[2715]: pam_unix(sshd:session): session opened for user ansible(uid=1001) by (uid=0)
+Jul  2 19:39:39 Manage-Node2 sshd[2728]: Received disconnect from 192.168.56.21 port 41654:11: disconnected by user
+Jul  2 19:39:39 Manage-Node2 sshd[2728]: Disconnected from user ansible 192.168.56.21 port 41654
+Jul  2 19:39:39 Manage-Node2 sshd[2715]: pam_unix(sshd:session): session closed for user ansible
+Jul  2 19:53:21 Manage-Node2 sshd[2762]: Accepted publickey for ansible from 192.168.56.21 port 50058 ssh2: RSA SHA256:kThtlvm+tdmK/NK2Zm2x0E8z3owmfDpb2MQi91Yltu4
+Jul  2 19:53:22 Manage-Node2 systemd[2766]: pam_unix(systemd-user:session): session opened for user ansible(uid=1001) by (uid=0)
+Jul  2 19:53:22 Manage-Node2 sshd[2762]: pam_unix(sshd:session): session opened for user ansible(uid=1001) by (uid=0)
+Jul  2 19:53:22 Manage-Node2 sudo[2902]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-npialyumnomhhijctctntqibzcmntskq ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1783002202.3658307-1848-39301021095694/AnsiballZ_setup.py
+Jul  2 19:53:22 Manage-Node2 sudo[2902]: pam_unix(sudo:session): session opened for user root(uid=0) by ansible(uid=1001)
+Jul  2 19:53:24 Manage-Node2 sudo[2902]: pam_unix(sudo:session): session closed for user root

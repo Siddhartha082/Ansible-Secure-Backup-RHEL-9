@@ -1,0 +1,60 @@
+Jul  2 19:03:13 Control-Node1 sshd[924]: Server listening on 0.0.0.0 port 22.
+Jul  2 19:03:13 Control-Node1 sshd[924]: Server listening on :: port 22.
+Jul  2 19:03:15 Control-Node1 polkitd[1008]: Loading rules from directory /etc/polkit-1/rules.d
+Jul  2 19:03:15 Control-Node1 polkitd[1008]: Loading rules from directory /usr/share/polkit-1/rules.d
+Jul  2 19:03:15 Control-Node1 polkitd[1008]: Finished loading, compiling and executing 3 rules
+Jul  2 19:03:15 Control-Node1 polkitd[1008]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Jul  2 19:03:23 Control-Node1 sshd[1468]: Accepted password for root from 192.168.56.1 port 61531 ssh2
+Jul  2 19:03:24 Control-Node1 systemd[1474]: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Jul  2 19:03:24 Control-Node1 sshd[1468]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Jul  2 19:03:24 Control-Node1 sshd[1472]: Accepted password for root from 192.168.56.1 port 61532 ssh2
+Jul  2 19:03:24 Control-Node1 sshd[1472]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Jul  2 19:05:38 Control-Node1 su[1545]: pam_unix(su:session): session opened for user ansible(uid=1001) by root(uid=0)
+Jul  2 19:06:08 Control-Node1 sudo[1569]: ansible : TTY=pts/0 ; PWD=/etc/ansible/playbook/DO294-playbook ; USER=root ; COMMAND=/bin/vim 9-stat-results.yaml
+Jul  2 19:06:08 Control-Node1 sudo[1569]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:09:56 Control-Node1 sudo[1569]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:18:21 Control-Node1 sudo[1658]: ansible : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/bin/cat secure
+Jul  2 19:18:21 Control-Node1 sudo[1658]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:18:21 Control-Node1 sudo[1658]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:19:53 Control-Node1 sudo[1669]: ansible : TTY=pts/0 ; PWD=/etc/ansible/playbook/DO294-playbook ; USER=root ; COMMAND=/bin/vim file_management.yaml
+Jul  2 19:19:53 Control-Node1 sudo[1669]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:26:43 Control-Node1 sudo[1669]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:26:52 Control-Node1 sudo[1673]: ansible : TTY=pts/0 ; PWD=/etc/ansible/playbook/DO294-playbook ; USER=root ; COMMAND=/bin/vim file_management.yaml --syntax-check
+Jul  2 19:26:52 Control-Node1 sudo[1673]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:26:52 Control-Node1 sudo[1673]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:27:12 Control-Node1 sudo[1679]: ansible : TTY=pts/0 ; PWD=/etc/ansible/playbook/DO294-playbook ; USER=root ; COMMAND=/bin/vim file_management.yaml --syntax-check
+Jul  2 19:27:12 Control-Node1 sudo[1679]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:27:12 Control-Node1 sudo[1679]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:27:19 Control-Node1 sudo[1682]: ansible : TTY=pts/0 ; PWD=/etc/ansible/playbook/DO294-playbook ; USER=root ; COMMAND=/bin/vim file_management.yaml
+Jul  2 19:27:19 Control-Node1 sudo[1682]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:27:56 Control-Node1 sudo[1682]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:28:33 Control-Node1 sudo[1691]: ansible : TTY=pts/0 ; PWD=/etc/ansible ; USER=root ; COMMAND=/bin/vim hosts
+Jul  2 19:28:33 Control-Node1 sudo[1691]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:28:38 Control-Node1 sudo[1691]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:29:14 Control-Node1 sudo[1699]: ansible : TTY=pts/0 ; PWD=/etc/ansible/playbook/DO294-playbook ; USER=root ; COMMAND=/bin/vim file_management.yaml
+Jul  2 19:29:14 Control-Node1 sudo[1699]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:29:23 Control-Node1 sudo[1699]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:31:07 Control-Node1 sudo[1760]: ansible : TTY=pts/0 ; PWD=/etc/ansible/playbook/DO294-playbook ; USER=root ; COMMAND=/bin/vim file_management.yaml
+Jul  2 19:31:07 Control-Node1 sudo[1760]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:32:46 Control-Node1 sudo[1760]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:35:18 Control-Node1 sudo[1815]: ansible : TTY=pts/0 ; PWD=/etc/ansible/playbook/DO294-playbook ; USER=root ; COMMAND=/bin/vim file_management.yaml
+Jul  2 19:35:18 Control-Node1 sudo[1815]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:38:05 Control-Node1 sudo[1815]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:41:15 Control-Node1 sudo[1822]: ansible : TTY=pts/0 ; PWD=/etc/ansible/playbook/DO294-playbook ; USER=root ; COMMAND=/bin/tree -F secure-backups
+Jul  2 19:41:15 Control-Node1 sudo[1822]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:41:15 Control-Node1 sudo[1822]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:45:02 Control-Node1 sudo[1826]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/cp /etc/ansible/playbook/DO294-playbook/DO294-playbook/file_managment.yaml /home/ansible/file_manage/
+Jul  2 19:45:02 Control-Node1 sudo[1826]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:45:02 Control-Node1 sudo[1826]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:45:31 Control-Node1 sudo[1829]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/cp /etc/ansible/playbook/DO294-playbook/file_managment.yaml /home/ansible/file_manage/
+Jul  2 19:45:31 Control-Node1 sudo[1829]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:45:31 Control-Node1 sudo[1829]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:45:52 Control-Node1 sudo[1832]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/cp /etc/ansible/playbook/DO294-playbook/file_management.yaml /home/ansible/file_manage/
+Jul  2 19:45:52 Control-Node1 sudo[1832]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:45:52 Control-Node1 sudo[1832]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:46:08 Control-Node1 sudo[1837]: ansible : TTY=pts/0 ; PWD=/home/ansible/file_manage ; USER=root ; COMMAND=/bin/vim file_management.yaml
+Jul  2 19:46:08 Control-Node1 sudo[1837]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:49:11 Control-Node1 sudo[1837]: pam_unix(sudo:session): session closed for user root
+Jul  2 19:53:22 Control-Node1 sudo[1868]: ansible : TTY=pts/0 ; PWD=/home/ansible/file_manage ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zxpiyvhwqptotvtrmvoofpcxbgfbscly ; /usr/bin/python3 /home/ansible/.ansible/tmp/ansible-tmp-1783002201.6117804-1849-276060632416045/AnsiballZ_setup.py
+Jul  2 19:53:22 Control-Node1 sudo[1868]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=1001)
+Jul  2 19:53:23 Control-Node1 sudo[1868]: pam_unix(sudo:session): session closed for user root
